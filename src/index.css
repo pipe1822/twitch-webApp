@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*::-webkit-scrollbar {
+	width: 18px;
+	background: #6B3DAA;
+}
+
+
+
+*::-webkit-scrollbar-thumb {
+	border-radius: 100px;
+	border: 5px solid transparent;
+	background-clip: content-box;
+	background-color:#27222d;
+}
+
+.App{
+	background: #27222d;
+}
+.header{
+	background: #6B3DAA;
+}
+
+.link-active{
+	color: #27222d;
+	border-color: #27222d;
+}
