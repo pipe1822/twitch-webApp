@@ -19,12 +19,9 @@ export default function Games() {
             setTopGame(response.data.data);
           })
           .catch((error) => {
-            console.log(error);
           });
       })
-      .catch((error) => {
-        console.log(error);
-      });
+     
   }
 
   useEffect(() => {
@@ -36,7 +33,7 @@ export default function Games() {
       <div className="w-11/12 mt-20 mb-20 flex flex-col justify-center items-center">
         <h1 className="text-3xl font-bold text-white mb-6 justify-center items-center">
           {" "}
-          TOP GAMES{" "}
+          TOP GAMES{" "} 
         </h1>
 
         <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
